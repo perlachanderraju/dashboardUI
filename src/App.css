@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Roboto Condensed", sans-serif;
+}
+
+.navSection{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(106, 0, 255);
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+    font-size: large;
+}
+
+/* login section */ 
+.loginSection{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,50,0.8))
+}
+.sublogin{
+    
+    padding: 40px;
+    padding-bottom: 110px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 500px;
+    height: 200px;     
+    max-width: 100%;
+    max-height: 100%;
+}
+.signupSection{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.authForm{
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.authForm div Field{
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+}
+.field{
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: 1.4rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btnh{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
